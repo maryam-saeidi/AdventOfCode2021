@@ -1,6 +1,6 @@
 const readFile = require('./helpers/readFile');
 
-const data = readFile('05-temp.txt');
+const data = readFile('05.txt');
 
 const coordinates = data
   .map(coordinate => coordinate.split(' -> ')
