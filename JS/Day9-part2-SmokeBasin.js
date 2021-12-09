@@ -1,6 +1,6 @@
 const readFile = require('./helpers/readFile');
 
-const data = readFile('09-sample.txt');
+const data = readFile('09.txt');
 const area = [];
 let basinSizes = [];
 let maxMult = 1;
